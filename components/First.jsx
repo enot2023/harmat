@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import TypewriterEffect from "typewriter-effect";
 export default function First() {
     return (
@@ -6,7 +7,7 @@ export default function First() {
 
     <div>
       <div>
-      <img
+      <Image
         className=" mb-10 shadow-md"
         alt="Placeholder Image"
         src="/carousal/co2.jpg"
@@ -15,7 +16,7 @@ export default function First() {
       </div>
       <div className="overlayContent">
         <h1 class="larger-text fontb  animate__animated animate__slideInFromTop text-lime-500" >IT Solutions that transform your business.</h1>
-        <p class="larger-text fonta animate__animated animate__slideInFromInward">Leave the tech to us. Let's get started with yours</p>
+        <p class="larger-text fonta animate__animated animate__slideInFromInward">Leave the tech to us. Let&apos;s get started with yours</p>
         <div >
         <div className=" text-xl font-bold mt-2 bg-clip-text  ">
             <TypewriterEffect

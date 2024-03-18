@@ -46,9 +46,9 @@ const Solution = () => {
         <div className='w-3/4 m-auto '>
         <Slider {...settings}>
                 {data.map((d) =>(
-                    <div className='bg-white h-[450px] rounded-xl'>
+                    <div key={d.label} className='bg-white h-[450px] rounded-xl'>
                         <div className='rounded-t-xl flex justify-center items-center'>
-                            <Image alt='img' src={d.img} width={500} height={500} className=''></Image>
+                            <Image  alt='img' src={d.img} width={500} height={500} className=''></Image>
                         </div>
                         <div className='flex flex-col justify-center items-center p-4'>
                             <h1 className='text-xl  '>{d.label}</h1>
