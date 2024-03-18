@@ -32,10 +32,25 @@ const Solution = () => {
         dots: true,
         infinite: true,
         speed: 500,
+        autoplay: true,
+        autoplaySpeed: 2000,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true, 
-        autoplaySpeed: 2000  
+
+        responsive: [
+          {
+            breakpoint: 768, 
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+          {
+            breakpoint: 1024, 
+            settings: {
+              slidesToShow: 2,
+            },
+          },
+        ],
       };
   return (
     <div className='bg-lime-500 pb-10'>
@@ -44,7 +59,7 @@ const Solution = () => {
         <h1 className='text-white pt-2'>Unlock Your Vision with Expert Architectural Solutions! Explore Our Wide Range of Services and Transform Your Dreams into Reality.</h1>
         </div>
         <div className='w-3/4 m-auto '>
-        <Slider {...settings}>
+        <Slider {...settings} >
                 {data.map((d) =>(
                     <div key={d.label} className='bg-white h-[450px] rounded-xl'>
                         <div className='rounded-t-xl flex justify-center items-center'>

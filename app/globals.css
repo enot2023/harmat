@@ -46,7 +46,7 @@
   .overlayContent{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 37%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
@@ -122,9 +122,7 @@
     animation-name: slideInFromInward;
   }
   
-  .block {
-    display: block;
-  }
+ 
   
   
   .icon-box {

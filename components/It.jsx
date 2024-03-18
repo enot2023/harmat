@@ -1,3 +1,4 @@
+
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -26,57 +27,42 @@ const It = () => {
           Unleash Efficiency and Innovation. Elevate Your Business Today!
         </h1>
       </div>
-      <div className="grid grid-cols-3 pt-10 mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 gap-10">
-        <div>
-          <Link href={"/"} className=" flex items-center justify-center gap-3 image-containers hover:text-white">
-            <Image src={"/it/responsive.png"} width={70} height={70} alt="machi" />
-            <h1 className=" font-semibold ">Web Development</h1>
-          </Link>
-          <Link
-            href={"/"}
-            className="pt-16 flex items-center justify-center gap-3 image-containers hover:text-white"
-          >
-            <Image src={"/it/network.png"} width={70} height={70} alt="machi" />
-            <h1 className=" font-semibold ">NETWORK SECURITY</h1>
-          </Link>
-          <Link
-            href={"/"}
-            className="pt-16 flex items-center justify-center gap-3 image-containers hover:text-white"
-          >
-            <Image src={"/it/server.png"} width={70} height={70} alt="machi" />
-            <h1 className=" font-semibold ">ASSET MANAGEMENT</h1>
-          </Link>
-        </div>
-        <div>
-          <Image
-            src={"/source.gif"}
-            alt="machi"
-            width={500}
-            height={500}
-            className=" roundedImage "
-          ></Image>
-        </div>
-        <div>
-          <Link href={"/"} className=" flex items-center justify-center gap-3 image-containers hover:text-white">
-            <h1 className=" font-semibold ">Home Security</h1>
-            <Image src={"/it/security.png"} width={70} height={70} alt="machi" />
-          </Link>
-          <Link
-            href={"/"}
-            className="pt-16 flex items-center justify-center gap-3 image-containers hover:text-white"
-          >
-            <h1 className=" font-semibold ">Medical Equipment <br /> Related services</h1>
-            <Image src={"/it/mri.png"} width={70} height={70} alt="machi" />
-          </Link>
-          <Link
-            href={"/"}
-            className="pt-16 flex items-center justify-center gap-3 image-containers hover:text-white"
-          >
-            <h1 className=" font-semibold ">Industrial Equipment <br /> Related Service</h1>
-            <Image src={"/it/machinery.png"} width={70} height={70} alt="machi" />
-          </Link>
-        </div>
-      </div>
+      <div className="grid grid-cols-1 md:grid-cols-3 pt-10 mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 gap-10">
+  <div className="md:col-span-1">
+    <Link href={"/"} className="flex flex-col items-center justify-center image-containers hover:text-white">
+      <Image src={"/it/responsive.png"} width={70} height={70} alt="machi" />
+      <h1 className="font-semibold text-center">Web Development</h1>
+    </Link>
+    <Link href={"/"} className="pt-6 flex flex-col items-center justify-center image-containers hover:text-transparent">
+      <Image src={"/it/network.png"} width={70} height={70} alt="machi" />
+      <h1 className="font-semibold text-center">NETWORK SECURITY</h1>
+    </Link>
+    <Link href={"/"} className="pt-6 flex flex-col items-center justify-center image-containers hover:text-transparent">
+      <Image src={"/it/server.png"} width={70} height={70} alt="machi" />
+      <h1 className="font-semibold text-center">ASSET MANAGEMENT</h1>
+    </Link>
+  </div>
+  <div className="md:col-span-1 hidden md:flex justify-center"> {/* Hide on mobile */}
+    <Image src={"/source.gif"} alt="machi" width={500} height={500} className="roundedImage" />
+  </div>
+  <div className="md:col-span-1">
+    <Link href={"/"} className="flex flex-col items-center justify-center image-containers hover:text-transparent">
+
+      <Image src={"/it/security.png"} width={70} height={70} alt="machi" />
+      <h1 className=" font-semibold text-center">Home Security</h1>
+    </Link>
+    <Link href={"/"} className="pt-6 flex flex-col items-center justify-center image-containers hover:text-white">
+      
+      <Image src={"/it/mri.png"} width={70} height={70} alt="machi" />
+      <h1 className="font-semibold text-center">Medical Equipment <br /> Related services</h1>
+    </Link>
+    <Link href={"/"} className="pt-6 flex flex-col items-center justify-center image-containers hover:text-white">
+      
+      <Image src={"/it/machinery.png"} width={70} height={70} alt="machi" />
+      <h1 className="font-semibold text-center">Industrial Equipment <br /> Related Service</h1>
+    </Link>
+  </div>
+</div>
     </div>
   );
 };

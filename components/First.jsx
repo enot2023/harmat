@@ -1,42 +1,30 @@
 "use client";
-import Image from "next/image";
 import TypewriterEffect from "typewriter-effect";
-export default function First() {
-    return (
-        <div className=" mx-auto  inset-0 bg-black opacity-90" >
 
-    <div>
-      <div>
-      <Image
-        className=" mb-10 shadow-md"
+export default function First() {
+  return (
+    <div className="mx-auto bg-black opacity-90 relative">
+      <img
+        className="mb-10 shadow-md"
         alt="Placeholder Image"
         src="/carousal/co2.jpg"
         style={{ width: '100%', maxHeight: '100vh' }}
       />
+      <div className="overlayContent pt-10">
+        <h1 className=" text-lg  sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-lime-500 fontb">IT Solutions that transform your business.</h1>
+        <p className="font-a text-lg sm:text-md md:text-3xl lg:text-3xl fonta ">Leave the tech to us. Let's get started with yours</p>
+        <div className="text-sm sm:text-md md:text-lg lg:text-xlfont-bold mt-2 bg-clip-text flex items-center justify-center">
+          <TypewriterEffect
+            options={{
+              strings: ["ARCHITECTURAL PLANNING AND DESIGN", "IT SERVICES"],
+              autoStart: true,
+              loop: true,
+              cursor: "",
+            }}
+          />
+        </div>
+        <a href="/" className="btna mt-3">KNOW MORE</a>
       </div>
-      <div className="overlayContent">
-        <h1 class="larger-text fontb  animate__animated animate__slideInFromTop text-lime-500" >IT Solutions that transform your business.</h1>
-        <p class="larger-text fonta animate__animated animate__slideInFromInward">Leave the tech to us. Let&apos;s get started with yours</p>
-        <div >
-        <div className=" text-xl font-bold mt-2 bg-clip-text  ">
-            <TypewriterEffect
-              options={{
-                strings: ["ARCHITECTURAL PLANNING AND DESIGN", "IT SERVICES"],
-                autoStart: true,
-                loop: true,
-                cursor: "",
-              }}
-            />
-          </div>
-      <a href="/" className="btna mt-3">KNOW MORE</a>
-      </div>
-      </div>
-      
-
-
     </div>
-            
-</div>
-        
-        
-)}
+  );
+}

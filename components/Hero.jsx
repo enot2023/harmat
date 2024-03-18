@@ -55,20 +55,20 @@ const settings = {
   return (
     <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-      <div className="lg:py-24">
-          <h2 className="text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-lime-500 to-slate-950">
+      <div className="order-2 lg:order-1 lg:py-24 sm:p-2">
+          <h2 className="text-3xl lg:mb-0 ml-4 lg:ml-0 font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-lime-500 to-slate-950">
           Online Store
           </h2>
 
-          <p className="mt-4 text-gray-600">
+          <p className="mt-4 lg:mb-0 ml-4 lg:ml-0 text-gray-600">
           Fashions, Electrical, Groceries, TV, Computer Hardware, Garden Tools, Kitchen Appliance, Toys and more.
           </p>
           
-          <Button className="mt-4 bg-lime-500 hover:bg-lime-900 transform hover:scale-105 transition duration-300">
+          <Button className="mt-4 mb-4 lg:mb-0 ml-4 lg:ml-0 bg-lime-500 hover:bg-lime-900 transform hover:scale-105 transition duration-300">
             Shop Now
           </Button>
         </div>
-      <Slider {...settings}>
+      <Slider {...settings} className="order-1 lg:order-2">
   {shop.map((d) => (
     <div key={d.id} className="overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
       <Image
@@ -100,35 +100,35 @@ const settings = {
 
         
         <div className="lg:py-24">
-          <h2 className="text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-lime-500 to-slate-950">
+          <h2 className="text-3xl lg:mb-0 ml-4 lg:ml-0 font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-lime-500 to-slate-950">
           We bring you powerful advantages to navigate your digital transformation.
           </h2>
 
-          <p className="mt-4 text-gray-600">
+          <p className="mt-4 lg:mb-0 ml-4 lg:ml-0 text-gray-600">
           Web Design & Development, Networking, Smart Home Integration, Home Security, Medical and Industrial Equipments.
           </p>
           
-          <Button className="mt-4 bg-lime-500 hover:bg-lime-900 transform hover:scale-105 transition duration-300">
-            Read more
-          </Button>
+          <Button className="mt-4 mb-4 lg:mb-0 ml-4 lg:ml-0 bg-lime-500 hover:bg-lime-900 transform hover:scale-105 transition duration-300">
+  Read more
+</Button>
         </div>
       </div>
 
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-      <div className="lg:py-24">
-          <h2 className="text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-lime-500 to-slate-950">
+      <div className="order-2 lg:order-1 lg:py-24">
+          <h2 className="text-3xl lg:mb-0 ml-4 lg:ml-0 font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-lime-500 to-slate-950">
           Turn your dream home to reality.
           </h2>
 
-          <p className="mt-4 text-gray-600">
+          <p className="mt-4 lg:mb-0 ml-4 lg:ml-0 text-gray-600">
           Architectural Design and Planning, Interior Design, Landscaping Design, Material Selection, Skilled Workforce Provision, and 3D Visualization.
           </p>
           
-          <Button className="mt-4 bg-lime-500 hover:bg-lime-900 transform hover:scale-105 transition duration-300">
-            Read more
-          </Button>
+          <Button className="mt-4 mb-4 lg:mb-0  ml-4 lg:ml-0 bg-lime-500 hover:bg-lime-900 transform hover:scale-105 transition duration-300">
+  Read more
+</Button>
         </div>
-      <Slider {...settings}>
+      <Slider {...settings} className="order-1 lg:order-2">
   {data.map((d) => (
     <div key={d.id} className="overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
       <Image
