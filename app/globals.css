@@ -1,33 +1,160 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  
+  .slick-slide > div {
+    margin: 0 10px
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .text-xl {
+    font-size: 24px; /* Change the font size to your desired size */
+    font-family: Arial, sans-serif; /* Change the font family to your desired font */
+    font-weight: bold; 
+    text-align: center; 
   }
-}
+
+  
+  .image-container {
+    margin-right: 20px; 
+    object-fit: cover;
+  }
+  .image-container {
+    display: inline-block;
+    margin-right: 10px; 
+  }
+  
+  
+  
+  .image-container img {
+    width: auto; 
+    max-width: 300px; 
+    height: auto;
+    
+    transition: transform 0.3s ease; 
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+  }
+  
+  .container-bg{
+    position: relative; 
+    width: 100%; 
+    height: 100%;
+  }
+  
+  .overlayContent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .larger-text {
+    font-size: 2.5em; 
+  }
+  
+  .fonta{
+    font-family:'Blackadder ITC'
+  }
+  .fontb{
+    font-family:'Bell MT'
+  }
+  
+  .btna {
+    
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: rgba(113, 255, 117, 0.5);
+    border: none;
+    padding: 0.75rem 1rem; 
+    font-size: 1rem; 
+    line-height: 1.25;
+    border-radius: 9999px; 
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: #fff; 
+    cursor: pointer;
+  }
+  
+  .btna:hover {
+    background-color: #84cc16; 
+  }
+  
+  .animate__animated {
+    animation-duration: 2s; 
+    animation-fill-mode: both;
+  }
+  
+  @keyframes slideInFromTop {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  .animate__slideInFromTop {
+    animation-name: slideInFromTop;
+  }
+  
+  @keyframes slideInFromInward {
+    from {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .animate__slideInFromInward {
+    animation-name: slideInFromInward;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  
+  .icon-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; 
+    width: 32px; 
+    height: 32px;
+    padding: 7px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    
+  }
+  .my_gradient {
+    @apply bg-gradient-to-r from-lime-500  to-white bg-clip-text text-transparent;
+  }
+ 
+  .roundedImage {
+    width: 100%; /* Adjust the size as needed */
+    height: 350px; 
+    border-radius: 50%; /* This will make the image round */
+  }
+
+  .image-containers img {
+    transition: transform 0.3s ease; 
+  }
+  
+  .image-containers:hover img {
+    transform: scale(2); 
+    transition: transform 0.3s ease; 
+  }
+  
+ 
