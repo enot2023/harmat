@@ -51,7 +51,15 @@
     text-align: center;
     color: white;
   }
-  
+  @media screen and (max-width: 767px) {
+    .overlayContent {
+      width: 90%; 
+      height: 90%; 
+      top: 60%;
+      left: 50%;
+    }
+  }
+
   .larger-text {
     font-size: 2.5em; 
   }
