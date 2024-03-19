@@ -48,7 +48,7 @@ export default function First() {
         {/* <motion.h1 className='font-bold font-serif text-7xl lg:text-8xl absolute top-28 left-5 z-10' style={{y: textY}}> your <span className='text-lime-500'>business</span></motion.h1> */}
         <div className="flex items-center justify-center mt-60">
           <h1 className="font-bold mt-36 ml-5 font-serif text-white text-2xl md:text-2xl  lg:text-3xl  z-0">
-            Leave the tech to us. <br className="block md:hidden" /> Let's get
+            Leave the tech to us. <br className="block md:hidden" /> Let&apos;s get
             started with yours
           </h1>
         </div>
