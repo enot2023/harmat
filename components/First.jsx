@@ -22,7 +22,7 @@ export default function First() {
         style={{ y: textY }}
       >
         {" "}
-        IT <span className="text-lime-500">Solutions</span> that &nbsp;&nbsp;&nbsp; transform your{" "}
+        IT <span className="text-lime-500">Solutions</span> that transform your{" "}
         <span className="text-lime-500"><br className="block md:hidden" />business</span>
       </motion.h1>
 
