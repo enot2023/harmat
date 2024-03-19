@@ -67,6 +67,10 @@
   .fonta{
     font-family:'Blackadder ITC'
   }
+  @font-face {
+    font-family: 'Blackadder ITC';
+    src: url('path/BlackadderITC.otf') format('opentype');
+  }
   .fontb{
     font-family:'Bell MT'
   }
