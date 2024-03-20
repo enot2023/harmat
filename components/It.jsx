@@ -8,9 +8,12 @@ const It = () => {
     let listItemDom = document.querySelector('.carousel .list');
     let thumbnailDom = document.querySelector('.carousel .thumbnail');
     let carouselDom = document.querySelector('.carousel');
-    let timeRunning = 4000;
+    let timeRunning = 3000;
+    let timeAutoNext = 10000;
+    let runAutoRun = setTimeout(() => {
+      document.getElementById('next').onclick()
+    }, timeAutoNext)
     let runTimeOut;
-    let activeIndex = 0;
 
     const showSlider = (type) => {
       const itemSlider = document.querySelectorAll('.carousel .list .item');
@@ -31,6 +34,10 @@ const It = () => {
         carouselDom.classList.remove('prev');
         carouselDom.classList.remove('next');
       }, timeRunning);
+      clearTimeout(runAutoRun)
+      runAutoRun = setTimeout(() => {
+        document.getElementById('next').onclick()
+      }, timeAutoNext)
     };
 
     document.getElementById('prev').onclick = () => {
@@ -47,7 +54,7 @@ const It = () => {
       <div className="carousel ">
         <div className="list">
           <div className="item">
-            <div className="img"><Image src={"/it/web.jpg"}   width={1000} height={1000}/></div>
+            <div className="img"><Image src={"/it/webdesign.jpg"}   width={1000} height={1000}/></div>
             <div className="content">
              
               <div className="topic">Web Development</div>
