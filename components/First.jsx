@@ -15,19 +15,19 @@ export default function First() {
   return (
     <div
       ref={ref}
-      className="w-full h-screen overflow-hidden relative grid place-items-center pt-10  "
+      className="w-full h-screen overflow-hidden relative grid place-items-center pt-10 "
     >
       <motion.h1
         className="font-bold font-serif text-4xl md:text-6xl text-white  lg:text-8xl absolute top-7 md:top-18 left-5 z-10 "
         style={{ y: textY }}
       >
-        
+        {" "}
         IT <span className="text-lime-500">Solutions</span> that transform your{" "}
         <span className="text-lime-500"><br className="block md:hidden" />business</span>
       </motion.h1>
 
       <motion.div
-        className="absolute inset-0 z-0 "
+        className="absolute inset-0 z-0"
         style={{
           backgroundImage: `url(/a3.png)`,
           backgroundPositionX: "center",
@@ -38,21 +38,21 @@ export default function First() {
         }}
       ></motion.div>
       <div
-        className="absolute inset-0 z-20 bg-cover "
+        className="absolute inset-0 z-20 bg-cover"
         style={{
           backgroundImage: `url(/a2.png)`,
           backgroundPositionX: "center",
           backgroundPositionY: "10%",
         }}
       >
-       
-        <div className="flex items-center justify-center mt-36 lg:mt-60 ">
-          <h1 className="font-bold mt-36 ml-5 font-serif text-white text-center text-2xl md:text-2xl  lg:text-3xl  z-0">
+        {/* <motion.h1 className='font-bold font-serif text-7xl lg:text-8xl absolute top-28 left-5 z-10' style={{y: textY}}> your <span className='text-lime-500'>business</span></motion.h1> */}
+        <div className="flex items-center justify-center mt-60">
+          <h1 className="font-bold mt-36 ml-5 font-serif text-white text-2xl md:text-2xl  lg:text-3xl  z-0">
             Leave the tech to us. <br /> Let&apos;s get
             started with yours
           </h1>
         </div>
-        <div className="text-sm sm:text-md md:text-lg lg:text-xl z-0 text-white font-bold  bg-clip-text flex items-center justify-center">
+        <div className="text-sm sm:text-md md:text-lg lg:text-xl z-0 text-white  mt-3 font-bold  bg-clip-text flex items-center justify-center">
           <TypewriterEffect
             options={{
               strings: ["ARCHITECTURAL PLANNING AND DESIGN", "IT SERVICES"],
