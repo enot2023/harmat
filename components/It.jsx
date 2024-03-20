@@ -8,7 +8,7 @@ const It = () => {
     let listItemDom = document.querySelector('.carousel .list');
     let thumbnailDom = document.querySelector('.carousel .thumbnail');
     let carouselDom = document.querySelector('.carousel');
-    let timeRunning = 3000;
+    let timeRunning = 2000;
     let timeAutoNext = 10000;
     let runAutoRun = setTimeout(() => {
       document.getElementById('next').onclick()
