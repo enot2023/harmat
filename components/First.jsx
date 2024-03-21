@@ -18,31 +18,32 @@ export default function First() {
       className="w-full h-[700px] overflow-hidden relative grid place-items-center pt-10 "
     >
       <motion.h1
-        className=" font-serif  text-3xl md:text-6xl text-white  lg:text-8xl absolute top-24 md:top-[120px] lg:top-[151px] left-5 z-10 "
+        className=" font-serif  text-6xl md:text-6xl text-white  lg:text-8xl absolute top-[120px] left-5 z-10 "
         style={{ y: textY }}
       >
         {" "}
         IT Solutions that{" "}
-       <br className="" /> transform{" "} <br className="block md:hidden" /> your{" "} <br /> business
+       <br/> transform{" "} <br className="block lg:hidden"/> your  <br className="hidden lg:block" />Business
       </motion.h1>
 
       <motion.div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url(/group2.png)`,
+          backgroundImage: `url(/z1.jpg)`,
           backgroundPositionX: "center",
-          backgroundPositionY: "0",
+          backgroundPositionY: "10%",
           backgroundSize: "cover",
+        
 
           y: backgroundY,
         }}
       ></motion.div>
       <div
-        className="absolute inset-0 z-20 bg-cover"
+        className="absolute inset-0 z-20"
         style={{
-          backgroundImage: `url(/group3.png)`,
+          backgroundImage: `url(/z2.gif)`,
           backgroundPositionX: "center",
-          backgroundPositionY: "0",
+          backgroundPositionY: "center",
           
         }}
       >
