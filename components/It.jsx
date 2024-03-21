@@ -128,7 +128,7 @@ const It = () => {
           </div> 
         </div>
         {/* thumnail */}
-        <div className="thumbnail">
+        <div className="thumbnail ">
          
           <div className="item">
           <div  className="img"><Image src={"/it/networks.jpg"}  width={1000} height={1000}/>

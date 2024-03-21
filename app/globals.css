@@ -241,7 +241,7 @@
   left: 60%;
   width: max-content;
  
-  z-index: 100;
+  z-index: 25;
   display: flex;
   gap: 20px;
 }
