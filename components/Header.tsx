@@ -1,9 +1,26 @@
+"use client"
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
 import MobileSiderbar from './Mobilesidebar';
+import React, { useState, useEffect } from 'react';
 // import {menu} from "lucide-react"
 const Header = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const scrollThreshold = 0; 
+
+      setIsScrolled(scrollY > scrollThreshold); 
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
     const Menu = [
         {
           id: 1,
@@ -32,12 +49,17 @@ const Header = () => {
         },
       ];
   return (
-    <div className='fixed w-full  z-50 flex  item-center justify-between  p-4 lg:pl-24 bg-transparent'>
+    <div
+  className={`fixed w-full z-50 flex items-center justify-between p-3 md:p-1 lg:pl-24 transition-all ${
+    isScrolled ? 'bg-indigo-950 ' : 'bg-transparent' 
+  }`}
+>
+
         <div className='flex items-center  gap-10 '>    
         <Link href={"/"}>
         <Image alt='logo' src="/logo.png" width={60} height={60} /></Link>
         </div>
-        <ul className='md:flex md:text-sm md:gap-2 lg:gap-8 hidden pt-7'>
+        <ul className='md:flex md:text-sm md:gap-2 lg:gap-8 hidden text-white'>
         {Menu.map((item) => (
           <Link key={item.id}  href={item.path}>
             <li className='hover:text-primary cursor-pointer hover:scale-105 transition-all ease-in-out'>
@@ -47,6 +69,7 @@ const Header = () => {
           
             ))}
         </ul>
+
 
          <div className='flex items-center justify-end'>
          <a
