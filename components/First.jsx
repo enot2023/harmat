@@ -23,13 +23,13 @@ export default function First() {
       >
         {" "}
         IT Solutions that{" "}
-       <br className="block lg:hidden" /> transform{" "}<br className="hidden lg:block" /> your{" "} <br className="block lg:hidden" /> business
+       <br className="" /> transform{" "} your{" "} <br /> business
       </motion.h1>
 
       <motion.div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url(/a3.png)`,
+          backgroundImage: `url(/group2.png)`,
           backgroundPositionX: "center",
           backgroundPositionY: "10%",
           backgroundSize: "cover",
@@ -40,14 +40,14 @@ export default function First() {
       <div
         className="absolute inset-0 z-20 bg-cover"
         style={{
-          backgroundImage: `url(/a2.png)`,
+          backgroundImage: `url(/group3.png)`,
           backgroundPositionX: "center",
           backgroundPositionY: "10%",
         }}
       >
         {/* <motion.h1 className='font-bold font-serif text-7xl lg:text-8xl absolute top-28 left-5 z-10' style={{y: textY}}> your <span className='text-slate-900'>business</span></motion.h1> */}
         <div className="flex items-center justify-center mt-64">
-          <h1 className="font-semibold mt-36 ml-5 font-serif text-white text-2xl md:text-2xl  lg:text-3xl  z-0">
+          <h1 className="font-semibold mt-36 ml-5 font-serif text-indigo-950 text-2xl md:text-2xl  lg:text-3xl  z-0">
             Leave the tech to us. <br /> Let&apos;s get
             started with yours
           </h1>
