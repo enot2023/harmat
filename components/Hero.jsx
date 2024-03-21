@@ -54,7 +54,7 @@ const settings = {
     autoplaySpeed: 2000  
   };
   return (
-    <div className="mx-auto max-w-screen-xl px-4 py-2 sm:px-6 lg:px-8 z-100">
+    <div className="mx-auto max-w-screen-xl px-4 pt-10 sm:px-6 lg:px-8 z-100">
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
       <div className="order-2 lg:order-1 lg:py-24 sm:p-2">
           <h2 className="text-3xl lg:mb-0 ml-4 lg:ml-0 font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-950 to-sky-500">

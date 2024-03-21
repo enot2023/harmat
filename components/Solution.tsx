@@ -61,7 +61,7 @@ const Solution = () => {
         <div className='w-3/4 m-auto '>
         <Slider {...settings} >
                 {data.map((d) =>(
-                    <div key={d.label} className=' p-12 bg-white h-[370px] rounded-xl'>
+                    <div key={d.label} className=' p-12 bg-white h-[400px] rounded-xl'>
                         <div className='rounded-t-xl flex justify-center items-center'>
                             <Image  alt='img' src={d.img} width={500} height={500} className=''></Image>
                         </div>

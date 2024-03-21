@@ -12,7 +12,7 @@ export default function Home() {
     <Hero/>
    <Solution/>
    <It/>
-   <About/>
+   <About/>   
    </div>
   );
 }
