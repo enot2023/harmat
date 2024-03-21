@@ -23,7 +23,7 @@ export default function First() {
       >
         {" "}
         IT Solutions that{" "}
-       <br className="" /> transform{" "} your{" "} <br /> business
+       <br className="" /> transform{" "} <br className="block md:hidden" /> your{" "} <br /> business
       </motion.h1>
 
       <motion.div
