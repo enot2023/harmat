@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 import { Button } from "./ui/button";
+
 const Hero = () => {
   const data =[
     {
@@ -68,7 +69,9 @@ const settings = {
             Shop Now
           </Button>
         </div>
-      <Slider {...settings} className="order-1 lg:order-2">
+
+    
+    <Slider {...settings} className="order-1 lg:order-2">
   {shop.map((d) => (
     <div key={d.id} className="overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
       <Image
@@ -78,9 +81,12 @@ const settings = {
         src={d.img}
         className="h-80 w-full object-cover rounded-3xl"
       />
+      
     </div>
   ))}
 </Slider>
+
+
 
       </div>
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
@@ -144,7 +150,7 @@ const settings = {
 
       </div>
 
-      <div className="flex items-center justify-between pt-10">
+      <div className="flex items-center justify-between pt-10 pb-7">
         <div className=" text-center ">
           <h1 className="text-5xl font-extrabold text-indigo-950">5+</h1>
           <p>Years of expertise</p>
