@@ -31,7 +31,7 @@ export default function First() {
         style={{
           backgroundImage: `url(/group2.png)`,
           backgroundPositionX: "center",
-          backgroundPositionY: "10%",
+          backgroundPositionY: "0",
           backgroundSize: "cover",
 
           y: backgroundY,
@@ -42,7 +42,8 @@ export default function First() {
         style={{
           backgroundImage: `url(/group3.png)`,
           backgroundPositionX: "center",
-          backgroundPositionY: "10%",
+          backgroundPositionY: "0",
+          
         }}
       >
         {/* <motion.h1 className='font-bold font-serif text-7xl lg:text-8xl absolute top-28 left-5 z-10' style={{y: textY}}> your <span className='text-slate-900'>business</span></motion.h1> */}
