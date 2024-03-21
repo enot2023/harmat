@@ -56,7 +56,7 @@ const settings = {
     <div className="mx-auto max-w-screen-xl px-4 py-2 sm:px-6 lg:px-8">
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
       <div className="order-2 lg:order-1 lg:py-24 sm:p-2">
-          <h2 className="text-3xl lg:mb-0 ml-4 lg:ml-0 font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-lime-500 to-slate-950">
+          <h2 className="text-3xl lg:mb-0 ml-4 lg:ml-0 font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-950 to-sky-500">
           Online Store
           </h2>
 
@@ -64,7 +64,7 @@ const settings = {
           Fashions, Electrical, Groceries, TV, Computer Hardware, Garden Tools, Kitchen Appliance, Toys and more.
           </p>
           
-          <Button className="mt-4 mb-4 lg:mb-0 ml-4 lg:ml-0 bg-lime-500 hover:bg-lime-900 transform hover:scale-105 transition duration-300">
+          <Button className="mt-4 mb-4 lg:mb-0 ml-4 lg:ml-0 bg-indigo-950 hover:bg-lime-900 transform hover:scale-105 transition duration-300">
             Shop Now
           </Button>
         </div>
@@ -100,7 +100,7 @@ const settings = {
 
         
         <div className="lg:py-24">
-          <h2 className="text-3xl lg:mb-0 ml-4 lg:ml-0 font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-lime-500 to-slate-950">
+          <h2 className="text-3xl lg:mb-0 ml-4 lg:ml-0 font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-950 to-sky-500">
           We bring you powerful advantages to navigate your digital transformation.
           </h2>
 
@@ -108,7 +108,7 @@ const settings = {
           Web Design & Development, Networking, Smart Home Integration, Home Security, Medical and Industrial Equipments.
           </p>
           
-          <Button className="mt-4 mb-4 lg:mb-0 ml-4 lg:ml-0 bg-lime-500 hover:bg-lime-900 transform hover:scale-105 transition duration-300">
+          <Button className="mt-4 mb-4 lg:mb-0 ml-4 lg:ml-0 bg-indigo-950 hover:bg-lime-900 transform hover:scale-105 transition duration-300">
   Read more
 </Button>
         </div>
@@ -116,7 +116,7 @@ const settings = {
 
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
       <div className="order-2 lg:order-1 lg:py-24">
-          <h2 className="text-3xl lg:mb-0 ml-4 lg:ml-0 font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-lime-500 to-slate-950">
+          <h2 className="text-3xl lg:mb-0 ml-4 lg:ml-0 font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-950 to-sky-500">
           Turn your dream home to reality.
           </h2>
 
@@ -124,7 +124,7 @@ const settings = {
           Architectural Design and Planning, Interior Design, Landscaping Design, Material Selection, Skilled Workforce Provision, and 3D Visualization.
           </p>
           
-          <Button className="mt-4 mb-4 lg:mb-0  ml-4 lg:ml-0 bg-lime-500 hover:bg-lime-900 transform hover:scale-105 transition duration-300">
+          <Button className="mt-4 mb-4 lg:mb-0  ml-4 lg:ml-0 bg-indigo-950 hover:bg-lime-900 transform hover:scale-105 transition duration-300">
   Read more
 </Button>
         </div>
@@ -146,19 +146,19 @@ const settings = {
 
       <div className="flex items-center justify-between pt-10">
         <div className=" text-center ">
-          <h1 className="text-5xl font-extrabold text-lime-500">5+</h1>
+          <h1 className="text-5xl font-extrabold text-indigo-950">5+</h1>
           <p>Years of expertise</p>
         </div>
         <div className=" text-center ">
-          <h1 className="text-5xl font-extrabold text-lime-500">5+</h1>
+          <h1 className="text-5xl font-extrabold text-indigo-950">5+</h1>
           <p>Years of expertise</p>
         </div>
         <div className=" text-center ">
-          <h1 className="text-5xl font-extrabold text-lime-500">5+</h1>
+          <h1 className="text-5xl font-extrabold text-indigo-950">5+</h1>
           <p>Years of expertise</p>
         </div>
         <div className=" text-center ">
-          <h1 className="text-5xl font-extrabold text-lime-500">5+</h1>
+          <h1 className="text-5xl font-extrabold text-indigo-950">5+</h1>
           <p>Years of expertise</p>
         </div>
       </div>

@@ -61,7 +61,7 @@ const It = () => {
               <div className="des  ">At Harmat, we specialize in crafting cutting-edge web solutions tailored to meet the unique needs of your business. Our expert team of developers is dedicated to delivering high-quality, custom-built websites and web applications that drive results and exceed expectations.
                <br />With a focus on user experience, performance, and scalability, we offer a comprehensive range of web development services. Whether you&apos;re looking to launch a brand new website, revamp an existing one, or develop a powerful web application, we have the expertise to bring your vision to life.</div>
               <div className="buttons">
-                <Button className="bg-lime-500">See more</Button>
+                <Button className="bg-indigo-950">See more</Button>
          
               </div>
             </div>
@@ -73,7 +73,7 @@ const It = () => {
               <div className="topic">Network Security</div>
               <div className="des " >At Hatman, we understand the critical importance of safeguarding your digital assets against ever-evolving cyber threats. Our comprehensive network security services are designed to protect your organization&apos;s sensitive information, maintain compliance with regulatory standards, and mitigate the risks associated with malicious attacks.</div>
               <div className="buttons">
-                <Button className="bg-lime-500">See more</Button>
+                <Button className="bg-indigo-950">See more</Button>
               
               </div>
             </div>
@@ -85,7 +85,7 @@ const It = () => {
               <div className="topic">Asset Management</div>
               <div className="des  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora natus, doloremque tempore animi id ipsam quos corporis perspiciatis, assumenda dolores modi rem  Reprehenderit!</div>
               <div className="buttons">
-                <Button className="bg-lime-500">See more</Button>
+                <Button className="bg-indigo-950">See more</Button>
                
               </div>
             </div>
@@ -97,7 +97,7 @@ const It = () => {
               <div className="topic">Home Security</div>
               <div className="des  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora natus, doloremque tempore animi id ipsam quos corporis perspiciatis, assumenda dolores modi rem quae voluptatem repudiandae! </div>
               <div className="buttons">
-                <Button className="bg-lime-500" >See more</Button>
+                <Button className="bg-indigo-950" >See more</Button>
               
               </div>
             </div>
@@ -109,7 +109,7 @@ const It = () => {
               <div className="topic">Medical Equipment related services</div>
               <div className="des  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora natus, doloremque tempore animi id ipsam quos corporis perspiciatis, assumenda dolores modi rem quae voluptatem repudiandae! Nesciunt tempore pariatur quam ea quisquam fuga odio adipisci. Est,!</div>
               <div className="buttons">
-                <Button className="bg-lime-500">See more</Button>
+                <Button className="bg-indigo-950">See more</Button>
              
               </div>
             </div>
@@ -121,7 +121,7 @@ const It = () => {
               <div className="topic">Industrial Equipment Related Service</div>
               <div className="des ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora natus, doloremque tempore animi id ipsam quos corporis perspiciatis, assumenda dolores modi rem quae voluptatem repudiandae! Nesciunt tempore pariatur quam ea quisquam fuga odio adipisci. Est, inventore nobis. Aspernatur soluta explicabo velit molestiae animi. Reprehenderit!</div>
               <div className="buttons">
-                <Button  className="bg-lime-500">See more</Button>
+                <Button  className="bg-indigo-950">See more</Button>
                
               </div>
             </div>

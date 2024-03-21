@@ -32,7 +32,7 @@ const Header = () => {
         },
       ];
   return (
-    <div className=' w-full clearNav z-50 flex  item-center justify-between  p-4 lg:pl-24 shadow-sm bg-lime-500'>
+    <div className='fixed w-full  z-50 flex  item-center justify-between  p-4 lg:pl-24 bg-transparent'>
         <div className='flex items-center  gap-10 '>    
         <Link href={"/"}>
         <Image alt='logo' src="/logo.png" width={60} height={60} /></Link>

@@ -53,7 +53,7 @@ const Solution = () => {
         ],
       };
   return (
-    <div className='bg-lime-500 pb-10'>
+    <div className='bg-indigo-950 pb-10'>
         <div className='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8'>
         <h1 className='text-2xl text-white font-extrabold'>Expert Architectural Solutions</h1>
         <h1 className='text-white pt-2'>Unlock Your Vision with Expert Architectural Solutions! Explore Our Wide Range of Services and Transform Your Dreams into Reality.</h1>
@@ -66,7 +66,7 @@ const Solution = () => {
                             <Image  alt='img' src={d.img} width={500} height={500} className=''></Image>
                         </div>
                         <div className='flex flex-col justify-center items-center p-4'>
-                            <h1 className='text-xl  '>{d.label}</h1>
+                            <h1 className='text-sm font-serif pt-6 '>{d.label}</h1>
                         </div>
                     </div>
                 ))}
