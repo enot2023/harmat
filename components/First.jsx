@@ -18,7 +18,7 @@ export default function First() {
       className="w-full h-[700px] overflow-hidden relative grid place-items-center pt-10 "
     >
       <motion.h1
-        className=" font-serif  text-3xl md:text-6xl text-white  lg:text-8xl absolute top-24 md:top-20 left-5 z-10 "
+        className=" font-serif  text-3xl md:text-6xl text-white  lg:text-8xl absolute top-24 md:top-[120px] lg:top-[151px] left-5 z-10 "
         style={{ y: textY }}
       >
         {" "}
