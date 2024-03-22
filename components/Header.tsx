@@ -35,7 +35,7 @@ const Header = () => {
         {
           id: 3,
           name: 'ARCHITECTURAL PLANNING AND DESIGN',
-          path: '/',
+          path: '/architecture',
         },
         {
             id: 4,

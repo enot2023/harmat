@@ -36,7 +36,7 @@ const It = () => {
       }, timeRunning);
       clearTimeout(runAutoRun)
       runAutoRun = setTimeout(() => {
-        document.getElementById('next').onclick()
+        document.getElementById('next').click()
       }, timeAutoNext)
     };
 
