@@ -13,11 +13,11 @@ const Footer = () => {
                 </div>
                 <div class="flex mt-8 flex-col md:flex-row ">
                     <p class="w-full md:w-2/3 text-gray-400">Nestled in Imphal, HARMAT ENTERPRISE PRIVATE LIMITED is a hub of architectural innovation, smart planning, and advanced IT networking. Our passion for creativity and technology fuels our progress. With a team from across India, we&apos;re not just changing spaces; we&apos;re making possibilities limitless. Welcome to a new era of excellence!</p>
-                    <div class=" pt-6 md:pt-0 md:pl-10">
-                        <a href="mailto:contact@harmatenterprise.com" class="bg-red-500 w-44 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center">Contact US</a>
-                        <div className="flex items-center justify-start mt-5">
-                        <Phone className=" md:mr-0 lg:mr-4"/>
-                        <a href="tel:+918132043928">Call us: +91 8132043928</a>
+                    <div class=" pt-6 md:pt-0 md:pl-10  ">
+                        <a href="mailto:contact@harmatenterprise.com" class="bg-red-500 w-44 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
+                        <div className="flex items-center justify-start mt-5 ">
+                        <Phone className=" mr-4"/>
+                        <a href="tel:+918132043928" className="hover:scale-110 transition-all ease-in-out md:text-left">Call us: +91 8132043928</a>
                         </div>
                     </div>
                 </div>
