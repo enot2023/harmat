@@ -1,3 +1,4 @@
+import { Phone } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -10,10 +11,14 @@ const Footer = () => {
                 <div class="w-full text-7xl font-bold">
                     <h1 class="w-full md:w-2/3">About Us</h1>
                 </div>
-                <div class="flex mt-8 flex-col md:flex-row md:justify-between">
+                <div class="flex mt-8 flex-col md:flex-row ">
                     <p class="w-full md:w-2/3 text-gray-400">Nestled in Imphal, HARMAT ENTERPRISE PRIVATE LIMITED is a hub of architectural innovation, smart planning, and advanced IT networking. Our passion for creativity and technology fuels our progress. With a team from across India, we&apos;re not just changing spaces; we&apos;re making possibilities limitless. Welcome to a new era of excellence!</p>
-                    <div class="w-44 pt-6 md:pt-0">
-                        <a href="mailto:contact@harmatenterprise.com" class="bg-red-500 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center">Contact US</a>
+                    <div class=" pt-6 md:pt-0 md:pl-10">
+                        <a href="mailto:contact@harmatenterprise.com" class="bg-red-500 w-44 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center">Contact US</a>
+                        <div className="flex items-center justify-start mt-5">
+                        <Phone className=" md:mr-0 lg:mr-4"/>
+                        <a href="tel:+918132043928">Call us: +91 8132043928</a>
+                        </div>
                     </div>
                 </div>
                 <div class="flex flex-col">
@@ -21,7 +26,7 @@ const Footer = () => {
                         <div >
                         <Image src={"/logo.png"} width={84} height={25}/>  
                         </div>
-                        <div className=" flex items-center justify-center gap-20">
+                        <div className=" flex items-center justify-center md:gap-10  lg:gap-20">
                         <a class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">About</a>
                         <a class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Services</a>
                         <a class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Why us</a>
@@ -42,7 +47,7 @@ const Footer = () => {
                             </a>
                         </div>
                     </div>
-                    <hr class="border-gray-600"/>
+                   <hr class="border-gray-600"/>
                     <p class="w-full text-center my-7 text-gray-600"> © Copyright 2023. All rights reserved. HARMAT ENTERPRISES</p>
                 </div>
             </div>
