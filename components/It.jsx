@@ -174,7 +174,7 @@ const It = () => {
 
         </div>
        {/* awrows */}
-        <div className="arrows">
+        <div className="arrows z-10">
           <Button id="prev" >←</Button>
           <Button id="next" >→</Button>
         </div>

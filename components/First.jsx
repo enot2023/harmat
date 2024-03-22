@@ -18,7 +18,7 @@ export default function First() {
       className="w-full h-[700px] overflow-hidden relative grid place-items-center pt-10 "
     >
       <motion.h1
-        className=" font-serif  text-6xl md:text-6xl text-white  lg:text-8xl absolute top-[120px] left-5 z-10 "
+        className=" font-serif  text-4xl md:text-6xl text-white  lg:text-8xl absolute top-[100px] md:top-[90px] lg:top-[110px] left-5 z-10 "
         style={{ y: textY }}
       >
         {" "}
@@ -29,7 +29,7 @@ export default function First() {
       <motion.div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url(/z1.jpg)`,
+          backgroundImage: `url(/a3.png)`,
           backgroundPositionX: "center",
           backgroundPositionY: "10%",
           backgroundSize: "cover",
@@ -41,9 +41,10 @@ export default function First() {
       <div
         className="absolute inset-0 z-20"
         style={{
-          backgroundImage: `url(/z2.gif)`,
+          backgroundImage: `url(/a2.png)`,
           backgroundPositionX: "center",
-          backgroundPositionY: "center",
+          backgroundPositionY: "10%",
+          backgroundSize: "cover",
           
         }}
       >
