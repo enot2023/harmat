@@ -65,7 +65,7 @@ const settings = {
           Fashions, Electrical, Groceries, TV, Computer Hardware, Garden Tools, Kitchen Appliance, Toys and more.
           </p>
           
-          <Button className="mt-4 mb-4 lg:mb-0 ml-4 lg:ml-0 bg-indigo-950 hover:bg-lime-900 transform hover:scale-105 transition duration-300">
+          <Button className="mt-4 mb-4 lg:mb-0 ml-4 lg:ml-0 bg-indigo-950 hover:bg-stone-950 transform hover:scale-105 transition duration-300">
             Shop Now
           </Button>
         </div>
@@ -114,7 +114,7 @@ const settings = {
           Web Design & Development, Networking, Smart Home Integration, Home Security, Medical and Industrial Equipments.
           </p>
           
-          <Button className="mt-4 mb-4 lg:mb-0 ml-4 lg:ml-0 bg-indigo-950 hover:bg-lime-900 transform hover:scale-105 transition duration-300">
+          <Button className="mt-4 mb-4 lg:mb-0 ml-4 lg:ml-0 bg-indigo-950 hover:bg-stone-950 transform hover:scale-105 transition duration-300">
   Read more
 </Button>
         </div>
@@ -130,7 +130,7 @@ const settings = {
           Architectural Design and Planning, Interior Design, Landscaping Design, Material Selection, Skilled Workforce Provision, and 3D Visualization.
           </p>
           
-          <Button className="mt-4 mb-4 lg:mb-0  ml-4 lg:ml-0 bg-indigo-950 hover:bg-lime-900 transform hover:scale-105 transition duration-300">
+          <Button className="mt-4 mb-4 lg:mb-0  ml-4 lg:ml-0 bg-indigo-950 hover:bg-stone-950 transform hover:scale-105 transition duration-300">
   Read more
 </Button>
         </div>
