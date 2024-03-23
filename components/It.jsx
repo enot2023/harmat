@@ -1,5 +1,5 @@
 "use client"
-import Image from "next/image";
+import Image  from "next/image";
 import React, { useEffect } from "react";
 import {Button} from "@/components/ui/button"
 const It = () => {
@@ -55,7 +55,7 @@ const It = () => {
       <div className="carousel ">
         <div className="list">
           <div className="item">
-            <div className="img"><Image src={"/it/webdesign.jpg"}   width={1000} height={1000}/></div>
+            <div className="img"><Image alt={"harmat"} src={"/it/webdesign.jpg"}   width={1000} height={1000}/></div>
             <div className="content">
              
               <div className="topic">Web Development</div>
@@ -68,7 +68,7 @@ const It = () => {
             </div>
           </div>
           <div className="item">
-            <div  className="img"><Image src={"/it/networks.jpg"}  width={1000} height={1000}/>
+            <div  className="img"><Image alt={"harmat"} src={"/it/networks.jpg"}  width={1000} height={1000}/>
      </div>       <div className="content">
              
               <div className="topic">Network Security</div>
@@ -80,7 +80,7 @@ const It = () => {
             </div>
           </div>
           <div className="item">
-            <div  className="img"><Image src={"/it/asset.jpg"}  width={1000} height={1000}/>
+            <div  className="img"><Image alt={"harmat"} src={"/it/asset.jpg"}  width={1000} height={1000}/>
         </div>    <div className="content">
               
               <div className="topic">Asset Management</div>
@@ -92,7 +92,7 @@ const It = () => {
             </div>
           </div>
          <div className="item">
-            <div  className="img"><Image src={"/it/homesecurity.jpg"}  width={1000} height={1000}/>
+            <div  className="img"><Image alt={"harmat"} src={"/it/homesecurity.jpg"}  width={1000} height={1000}/>
  </div>           <div className="content">
             
               <div className="topic">Home Security</div>
@@ -104,7 +104,7 @@ const It = () => {
             </div>
           </div>
           <div className="item">
-            <div  className="img"><Image src={"/it/medicalequipment.jpg"}  width={1000} height={1000}/></div>
+            <div  className="img"><Image alt={"harmat"} src={"/it/medicalequipment.jpg"}  width={1000} height={1000}/></div>
             <div className="content">
               
               <div className="topic">Medical Equipment related services</div>
@@ -116,7 +116,7 @@ const It = () => {
             </div>
           </div>
           <div className="item">
-            <div  className="img"><Image src={"/it/industrialequi.jpg"}  width={1000} height={1000}/></div>
+            <div  className="img"><Image alt={"harmat"} src={"/it/industrialequi.jpg"}  width={1000} height={1000}/></div>
             <div className="content">
             
               <div className="topic">Industrial Equipment Related Service</div>
@@ -132,41 +132,41 @@ const It = () => {
         <div className="thumbnail ">
          
           <div className="item">
-          <div  className="img"><Image src={"/it/networks.jpg"}  width={1000} height={1000}/>
+          <div  className="img"><Image alt={"harmat"} src={"/it/networks.jpg"}  width={1000} height={1000}/>
      </div>       <div className="content">
               <div className="title text-white">Network security </div>
           </div>
           </div>
           <div className="item">
-          <div  className="img"><Image src={"/it/asset.jpg"} width={1000} height={1000}/>
+          <div  className="img"><Image alt={"harmat"} src={"/it/asset.jpg"} width={1000} height={1000}/>
          </div>   <div className="content">
               <div className="title text-white">Asset Management</div>
               
           </div>
           </div>
           <div className="item">
-          <div  className="img"><Image src={"/it/homesecurity.jpg"} width={1000} height={1000}/>
+          <div  className="img"><Image alt={"harmat"} src={"/it/homesecurity.jpg"} width={1000} height={1000}/>
   </div>          <div className="content">
               <div className="title text-white">Home Security</div>
               
           </div>
           </div> 
           <div className="item">
-          <div  className="img"><Image src={"/it/medicalequipment.jpg"} width={1000} height={1000}/></div>
+          <div  className="img"><Image alt={"harmat"} src={"/it/medicalequipment.jpg"} width={1000} height={1000}/></div>
             <div className="content">
               <div className="title text-white">Medical Equipment related services</div>
               
           </div>
           </div>
           <div className="item">
-          <div  className="img"><Image src={"/it/industrialequi.jpg"} width={1000} height={1000}/>
+          <div  className="img"><Image alt={"harmat"} src={"/it/industrialequi.jpg"} width={1000} height={1000}/>
 </div>            <div className="content">
               <div className="title text-white">Industrial Equipment Related Service</div>
               
           </div>
           </div>
           <div className="item">
-          <div  className="img"><Image src={"/it/web.jpg"}  width={1000} height={1000}/>
+          <div  className="img"><Image alt={"harmat"} src={"/it/web.jpg"}  width={1000} height={1000}/>
           </div>  <div className="content">
               <div className="title text-white">Web Development</div>
               
