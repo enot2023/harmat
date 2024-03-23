@@ -541,15 +541,22 @@ body{
 }
 .ei2{
   letter-spacing: .3rem;
- 
   
-  
+}
+.ei3 {
+  letter-spacing: 1rem;
+  line-height: 4rem;
 }
 @media screen and (max-width: 768px) {
   
   .ei2{
     letter-spacing: .1rem;
     line-height: 2rem;
+  }
+  .ei3 {
+    line-height: 2rem;
+    padding-bottom: 3px;
+    padding-top: 10px;
   }
 
 }

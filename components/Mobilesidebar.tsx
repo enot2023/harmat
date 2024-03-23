@@ -28,7 +28,7 @@ const MobileSiderbar = () => {
         {
             id: 4,
             name: 'IT SERVICES',
-            path: '/',
+            path: '/it',
         },
         {
             id: 5,

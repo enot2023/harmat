@@ -18,9 +18,9 @@ const Archi = () => {
       <div className='contents'>
             <h1 className=''>Architecture</h1>
             <p className='text-sm'>Architectural Planning & Design | Interior Design | Smart Home</p>
-            <div className="buttona">
+            {/* <div className="buttona">
                 <button >Know more</button>
-            </div>
+            </div> */}
         </div>
       </div>
       
