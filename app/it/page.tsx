@@ -9,7 +9,7 @@ const page = () => {
       <MacbookScroll
         title={
             <>
-          <span className=' font-extralight md:font-normal'>
+          <span className=' ei4 font-extralight md:font-normal'>
             We bring you powerful advantages to navigate your digital transformation. 
           </span>
           <br className='block md:hidden'/><br />
