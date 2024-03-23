@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Hero.jsx", "components/Footer.jsx", "components/Header.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Hero.jsx", "components/Footer.jsx", "components/Header.tsx", "components/archi/first.jsx"],
   "exclude": ["node_modules"]
 }

@@ -11,7 +11,8 @@ const It = () => {
     let timeRunning = 2000;
     let timeAutoNext = 7000;
     let runAutoRun = setTimeout(() => {
-      document.getElementById('next').onclick()
+      document.getElementById('next').click()
+      
     }, timeAutoNext)
     let runTimeOut;
 
@@ -175,8 +176,8 @@ const It = () => {
         </div>
        {/* awrows */}
         <div className="arrows z-10">
-          <Button id="prev" >←</Button>
-          <Button id="next" >→</Button>
+          <button id="prev" >←</button>
+          <button id="next" >→</button>
         </div>
         <div className="time"></div>
       </div>

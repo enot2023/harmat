@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import { Button } from './ui/button'
 import { Menu } from 'lucide-react'
-import { Sheet, SheetContent, SheetTrigger } from './ui/sheet'
+import { Sheet, SheetContent, SheetTrigger ,SheetClose,} from './ui/sheet'
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -23,7 +23,7 @@ const MobileSiderbar = () => {
         {
           id: 3,
           name: 'ARCHITECTURAL PLANNING AND DESIGN',
-          path: '/',
+          path: '/architecture',
         },
         {
             id: 4,
@@ -36,6 +36,7 @@ const MobileSiderbar = () => {
             path: '/',
         },
       ];
+      
     const [isMounted,setIsMounted] = useState(false);
     useEffect(() => {
         setIsMounted(true)
@@ -51,9 +52,12 @@ const MobileSiderbar = () => {
         </Button>
         </SheetTrigger>
         <SheetContent side="left" className='p-0'>
-        <div className='grid grid-cols-2  gap-10 '>    
+        
+        <div className='grid grid-cols-2  gap-10 '>   
+        <SheetClose asChild>
         <Link href={"/"}>
         <Image alt='logo' src="/logo.png" width={60} height={60} className='ml-5 mt-3' /></Link>
+        </SheetClose>
         <div className='flex items-center justify-center'>
          <a
             href="https://facebook.com/"
@@ -77,21 +81,34 @@ const MobileSiderbar = () => {
           </a>
          </div>
         </div>
+       
+        
+        <div>
         <ul className='md:flex md:text-sm pt-7'>
-        {Menus.map((item) => (
-          <Link key={item.id}  href={item.path}>
-            <li className='flex items-center ml-2 mt-2 mb-2 hover:text-primary cursor-pointer text-pretty hover:scale-105  transition-all ease-in-out'>
-              {item.name}
-            </li>
-            <li>
-            <hr className="mt-3 border-gray-200 mx-2 " />
-            </li>
-          </Link>
+        
+       {Menus.map((item) => (
+        
+         <Link key={item.id}  href={item.path}>
+          <SheetClose asChild>
+           <li className='flex items-center ml-2 mt-2 mb-2 hover:text-primary cursor-pointer text-pretty hover:scale-105  transition-all ease-in-out'>
+           
+             {item.name}
+            
+           </li>
+           </SheetClose>
+           <li>
+           <hr className="mt-3 border-gray-200 mx-2 " />
+           </li>
+         </Link>
+         
+           ))}
           
-            ))}
-        </ul>
+       </ul>
+        </div>
+        
         
         </SheetContent>
+        
     </Sheet>
     
   )

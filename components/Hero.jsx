@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const Hero = () => {
   const data =[
@@ -130,9 +131,10 @@ const settings = {
           Architectural Design and Planning, Interior Design, Landscaping Design, Material Selection, Skilled Workforce Provision, and 3D Visualization.
           </p>
           
+          <Link href={"/architecture"}>
           <Button className="mt-4 mb-4 lg:mb-0  ml-4 lg:ml-0 bg-indigo-950 hover:bg-stone-950 transform hover:scale-105 transition duration-300">
   Read more
-</Button>
+</Button></Link>
         </div>
       <Slider {...settings} className="order-1 lg:order-2">
   {data.map((d) => (
