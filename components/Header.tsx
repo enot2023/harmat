@@ -4,6 +4,7 @@ import Link from 'next/link'
 import MobileSiderbar from './Mobilesidebar';
 import React, { useState, useEffect } from 'react';
 // import {menu} from "lucide-react"
+
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -21,6 +22,7 @@ const Header = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+  
     const Menu = [
         {
           id: 1,

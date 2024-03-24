@@ -1,9 +1,10 @@
-import React from 'react'
+import First from "@/components/contact/first";
+
 
 const page = () => {
   return (
-    <div>page</div>
-  )
-}
+    <First/>
+  );
+};
 
-export default page
+export default page;
