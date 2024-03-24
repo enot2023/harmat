@@ -11,11 +11,11 @@ const page = () => {
       <MacbookScroll
         title={
             <>
-          <span className=' ei4 font-extralight md:font-normal'>
+          <span className=' ei4 font-extralight md:font-normal text-white'>
             We bring you powerful advantages to navigate your digital transformation. 
           </span>
           <br className='block md:hidden'/><br />
-         <span className='ei3'>WE PROVIDE IT SOLUTIONS</span>
+         <span className='ei3 text-white'>WE PROVIDE IT SOLUTIONS</span>
          </>
         }
         badge={
@@ -26,8 +26,9 @@ const page = () => {
         src={`/it1/a1.png`}
         showGradient={false}
       />
-      <First/>
+      
     </div>
+    <First/>
     
     </div>
   );
