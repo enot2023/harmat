@@ -26,9 +26,9 @@ const page = () => {
         src={`/it1/a1.png`}
         showGradient={false}
       />
-      
+      <First/>
     </div>
-    <First/>
+    
     
     </div>
   );
