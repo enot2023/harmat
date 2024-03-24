@@ -6,33 +6,33 @@ import Link from "next/link"
 const Footer = () => {
   return (
 
-    <div class="w-full pt-10 flex items-center justify-center bg-indigo-950">
-            <div class="md:w-2/3 w-full px-4 text-white flex flex-col">
-                <div class="w-full text-7xl font-bold">
-                    <h1 class="w-full md:w-2/3">About Us</h1>
+    <div className="w-full pt-10 flex items-center justify-center bg-indigo-950">
+            <div className="md:w-2/3 w-full px-4 text-white flex flex-col">
+                <div className="w-full text-7xl font-bold">
+                    <h1 className="w-full md:w-2/3">About Us</h1>
                 </div>
-                <div class="flex mt-8 flex-col md:flex-row ">
-                    <p class="w-full md:w-2/3 text-gray-400">Nestled in Imphal, HARMAT ENTERPRISE PRIVATE LIMITED is a hub of architectural innovation, smart planning, and advanced IT networking. Our passion for creativity and technology fuels our progress. With a team from across India, we&apos;re not just changing spaces; we&apos;re making possibilities limitless. Welcome to a new era of excellence!</p>
-                    <div class=" pt-6 md:pt-0 md:pl-10  ">
-                        <a href="mailto:contact@harmatenterprise.com" class="bg-red-500 w-44 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
+                <div className="flex mt-8 flex-col md:flex-row ">
+                    <p className="w-full md:w-2/3 text-gray-400">Nestled in Imphal, HARMAT ENTERPRISE PRIVATE LIMITED is a hub of architectural innovation, smart planning, and advanced IT networking. Our passion for creativity and technology fuels our progress. With a team from across India, we&apos;re not just changing spaces; we&apos;re making possibilities limitless. Welcome to a new era of excellence!</p>
+                    <div className=" pt-6 md:pt-0 md:pl-10  ">
+                        <a href="mailto:contact@harmatenterprise.com" className="bg-red-500 w-44 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
                         <div className="flex items-center justify-start mt-5 ">
                         <Phone className=" mr-4"/>
                         <a href="tel:+918132043928" className="hover:scale-110 transition-all ease-in-out md:text-left">Call us: +91 8132043928</a>
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-col">
-                    <div class="flex mt-10 mb-5 flex-row justify-between">
+                <div className="flex flex-col">
+                    <div className="flex mt-10 mb-5 flex-row justify-between">
                         <div >
                         <Image src={"/logo.png"} width={84} height={25} alt="logo"/>  
                         </div>
                         <div className=" flex items-center justify-center md:gap-10  lg:gap-20">
-                        <a class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">About</a>
-                        <a class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Services</a>
-                        <a class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Why us</a>
-                        <a class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Contact</a>
+                        <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">About</a>
+                        <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Services</a>
+                        <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Why us</a>
+                        <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Contact</a>
                         </div>
-                        <div class="flex flex-row space-x-8 items-center justify-between">
+                        <div className="flex flex-row space-x-8 items-center justify-between">
                             <a href="https://www.facebook.com/">
                                 <svg width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M3.89782 12V6.53514H5.67481L5.93895 4.39547H3.89782V3.03259C3.89782 2.41516 4.06363 1.99243 4.91774 1.99243H6V0.0847928C5.47342 0.0262443 4.94412 -0.00202566 4.41453 0.000112795C2.84383 0.000112795 1.76542 0.994936 1.76542 2.82122V4.39147H0V6.53114H1.76928V12H3.89782Z" fill="white"/>
@@ -47,8 +47,8 @@ const Footer = () => {
                             </a>
                         </div>
                     </div>
-                   <hr class="border-gray-600"/>
-                    <p class="w-full text-center my-7 text-gray-600"> © Copyright 2023. All rights reserved. HARMAT ENTERPRISES</p>
+                   <hr className="border-gray-600"/>
+                    <p className="w-full text-center my-7 text-gray-600"> © Copyright 2023. All rights reserved. HARMAT ENTERPRISES</p>
                 </div>
             </div>
         </div>
