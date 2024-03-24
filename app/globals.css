@@ -594,5 +594,59 @@ body{
   transition: 0.25s;
 }
 
+/* components/WebDevelopmentSection.module.css */
+
+.background {
+  background-image: url('/it1/web.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%; /* Adjust height as needed */
+}
+
+/* components/WebDevelopmentSection.module.css */
+
+.backgroundz {
+  
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; 
+ 
+}
+
+.contentz { 
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+.contentz p{
+  text-align: start;
+}
+
+.titlez {
+  color: white;
+  letter-spacing: 1rem;
+}
+@media screen and (max-width: 1024px) {
+  .titlez {
+    color: white;
+    letter-spacing: .5rem;
+  }
+
+  }
+
+.descriptionz {
+  color: white;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+
 
 

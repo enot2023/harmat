@@ -1,3 +1,4 @@
+import { First } from '@/components/it/first';
 import { MacbookScroll } from '@/components/ui/macbook-scroll';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -5,7 +6,8 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className="overflow-hidden  bg-indigo-950 w-full">
+    <div className='bg-indigo-950'>
+      <div className="overflow-hidden w-full">
       <MacbookScroll
         title={
             <>
@@ -24,6 +26,9 @@ const page = () => {
         src={`/it1/a1.png`}
         showGradient={false}
       />
+      <First/>
+    </div>
+    
     </div>
   );
 }

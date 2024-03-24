@@ -63,6 +63,7 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
 const BlurImage = ({ card }: { card: Card }) => {
   const [loaded, setLoaded] = useState(false);
   return (
+    <>
     <Image
       src={card.thumbnail}
       height="1000"
@@ -74,6 +75,8 @@ const BlurImage = ({ card }: { card: Card }) => {
       )}
       alt="thumbnail"
     />
+    
+    </>
 
     
   );

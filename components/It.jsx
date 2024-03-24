@@ -55,7 +55,7 @@ const It = () => {
       <div className="carousel ">
         <div className="list">
           <div className="item">
-            <div className="img"><Image alt={"harmat"} src={"/it/webdesign.jpg"}   width={1000} height={1000}/></div>
+            <div className="img"><Image alt={"harmat"} src={"/it1/web.jpg"}   width={1000} height={1000}/></div>
             <div className="content">
              
               <div className="topic">Web Development</div>

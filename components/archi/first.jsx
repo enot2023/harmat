@@ -10,7 +10,7 @@ export default function First() {
       <div className='mx-auto max-w-screen-xl pl-10 pt-8'>
        <h1 className='text-sm md:text-xl lg:text-2xl text-gray-600 font-medium ei2'>We specialize in comprehensive architectural design and planning services, offering expertise in:</h1>
       </div>
-      <div className=" relative h-screen md:h-[900px] w-full">
+      <div className=" relative h-screen md:h-[900px] w-full pb-7">
        
       <LayoutGrid cards={cards} />
       
@@ -28,7 +28,7 @@ const SkeletonOne = () => {
       <p className="font-normal text-sm my-4 max-w-lg text-neutral-200">
       We are here to provide the best planning and design as per your needs. Starting from section, elevation till REALISTIC 3D views. 
       </p>
-      <a href="mailto:contact@harmatenterprise.com" class=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
+      <a href="mailto:contact@harmatenterprise.com" className=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
     </div>
   );
 };
