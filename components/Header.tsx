@@ -45,7 +45,7 @@ const Header = () => {
         {
             id: 5,
             name: 'CONTACT US',
-            path: '/',
+            path: '/contact',
         },
       ];
   return (
