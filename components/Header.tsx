@@ -29,20 +29,21 @@ const Header = () => {
           name: 'HOME',
           path: '/',
         },
+        
         {
           id: 2,
-          name: 'ABOUT US',
-          path: '/',
-        },
-        {
-          id: 3,
           name: 'ARCHITECTURAL PLANNING AND DESIGN',
           path: '/architecture',
         },
         {
-            id: 4,
+            id: 3,
             name: 'IT SERVICES',
             path: '/it',
+        },
+        {
+          id: 4,
+          name: 'ABOUT US',
+          path: '/about',
         },
         {
             id: 5,

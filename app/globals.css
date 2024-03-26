@@ -70,7 +70,7 @@ body{
     .overlayContent {
       width: 90%; 
       height: 90%; 
-      top: 60%;
+      top: 90%;
       left: 50%;
     }
   }
@@ -479,6 +479,15 @@ body{
   color: white;
   letter-spacing: 1.5rem;
   font-weight: 500;
+  padding: .5rem;
+  font-size: 2rem;
+}
+.contentas h1{
+
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: .6rem;
+  font-weight: 400;
   padding: .5rem;
   font-size: 2rem;
 }
