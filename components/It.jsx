@@ -2,6 +2,7 @@
 import Image  from "next/image";
 import React, { useEffect } from "react";
 import {Button} from "@/components/ui/button"
+import Link from "next/link";
 const It = () => {
  
   useEffect(() => {
@@ -62,8 +63,9 @@ const It = () => {
               <div className="des  ">At Harmat, we specialize in crafting cutting-edge web solutions tailored to meet the unique needs of your business. Our expert team of developers is dedicated to delivering high-quality, custom-built websites and web applications that drive results and exceed expectations.
    </div>
               <div className="buttons">
-                <Button className="bg-indigo-950">See more</Button>
-         
+              <Link href={"/it"}>
+                <Button className="bg-indigo-950 hover:bg-transparent hover:scale-150 transition-all ease-in-out">See more</Button></Link>
+               
               </div>
             </div>
           </div>
@@ -74,8 +76,9 @@ const It = () => {
               <div className="topic">Network Security</div>
               <div className="des " >At Hatman, we understand the critical importance of safeguarding your digital assets against ever-evolving cyber threats. Our comprehensive network security services are designed to protect your organization&apos;s sensitive information, maintain compliance with regulatory standards, and mitigate the risks associated with malicious attacks.</div>
               <div className="buttons">
-                <Button className="bg-indigo-950">See more</Button>
-              
+              <Link href={"/it"}>
+                <Button className="bg-indigo-950 hover:bg-transparent hover:scale-150 transition-all ease-in-out">See more</Button></Link>
+               
               </div>
             </div>
           </div>
@@ -86,7 +89,8 @@ const It = () => {
               <div className="topic">Asset Management</div>
               <div className="des  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora natus, doloremque tempore animi id ipsam quos corporis perspiciatis, assumenda dolores modi rem  Reprehenderit!</div>
               <div className="buttons">
-                <Button className="bg-indigo-950">See more</Button>
+              <Link href={"/it"}>
+                <Button className="bg-indigo-950 hover:bg-transparent hover:scale-150 transition-all ease-in-out">See more</Button></Link>
                
               </div>
             </div>
@@ -98,8 +102,9 @@ const It = () => {
               <div className="topic">Home Security</div>
               <div className="des  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora natus, doloremque tempore animi id ipsam quos corporis perspiciatis, assumenda dolores modi rem quae voluptatem repudiandae! </div>
               <div className="buttons">
-                <Button className="bg-indigo-950" >See more</Button>
-              
+              <Link href={"/it"}>
+                <Button className="bg-indigo-950 hover:bg-transparent hover:scale-150 transition-all ease-in-out">See more</Button></Link>
+               
               </div>
             </div>
           </div>
@@ -110,8 +115,9 @@ const It = () => {
               <div className="topic">Medical Equipment related services</div>
               <div className="des  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora natus, doloremque tempore animi id ipsam quos corporis perspiciatis, assumenda dolores modi rem quae voluptatem repudiandae! Nesciunt tempore pariatur quam ea quisquam fuga odio adipisci. Est,!</div>
               <div className="buttons">
-                <Button className="bg-indigo-950">See more</Button>
-             
+              <Link href={"/it"}>
+                <Button className="bg-indigo-950 hover:bg-transparent hover:scale-150 transition-all ease-in-out">See more</Button></Link>
+               
               </div>
             </div>
           </div>
@@ -122,7 +128,8 @@ const It = () => {
               <div className="topic">Industrial Equipment Related Service</div>
               <div className="des ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora natus, doloremque tempore animi id ipsam quos corporis perspiciatis, assumenda dolores modi rem quae voluptatem repudiandae! Nesciunt tempore pariatur quam ea quisquam fuga odio adipisci. Est, inventore nobis. Aspernatur soluta explicabo velit molestiae animi. Reprehenderit!</div>
               <div className="buttons">
-                <Button  className="bg-indigo-950">See more</Button>
+              <Link href={"/it"}>
+                <Button className="bg-indigo-950 hover:bg-transparent hover:scale-150 transition-all ease-in-out">See more</Button></Link>
                
               </div>
             </div>
@@ -166,7 +173,7 @@ const It = () => {
           </div>
           </div>
           <div className="item">
-          <div  className="img"><Image alt={"harmat"} src={"/it/web.jpg"}  width={1000} height={1000}/>
+          <div  className="img"><Image alt={"harmat"} src={"/it1/web.jpg"}  width={1000} height={1000}/>
           </div>  <div className="content">
               <div className="title text-white">Web Development</div>
               

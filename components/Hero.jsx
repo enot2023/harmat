@@ -134,9 +134,10 @@ const settings = {
           Web Design & Development, Networking, Smart Home Integration, Home Security, Medical and Industrial Equipments.
           </p>
           
+          <Link href={"/it"}>
           <Button className="mt-4 mb-4 lg:mb-0 ml-4 lg:ml-0 bg-indigo-950 hover:bg-stone-950 transform hover:scale-105 transition duration-300">
   Read more
-</Button>
+</Button></Link>
         </div>
       </div>
 

@@ -66,7 +66,7 @@ export default function First() {
           />
         </div>
         <div className="flex items-center justify-center">
-          <a href="/" className="  btna mt-3 z-0">
+          <a href="/about" className="  btna mt-3 z-0">
             KNOW MORE
           </a>
         </div>
