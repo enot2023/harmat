@@ -14,7 +14,7 @@ const Archi = () => {
     <div>
     <div className="container-bg">
     <NextVideo className='eigi' src={'/archi/joy.mp4'} autoPlay loop muted controls={false}/>
-      <div className="overlayContent pt-10 md:pt-0">
+      <div className="overlayContent">
       <div className='contents'>
             <h1 className=''>Architecture</h1>
             <p className='text-sm'>Architectural Planning & Design | Interior Design | Smart Home</p>
