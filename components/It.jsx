@@ -60,7 +60,7 @@ const It = () => {
              
               <div className="topic">Web Development</div>
               <div className="des  ">At Harmat, we specialize in crafting cutting-edge web solutions tailored to meet the unique needs of your business. Our expert team of developers is dedicated to delivering high-quality, custom-built websites and web applications that drive results and exceed expectations.
-               <br />With a focus on user experience, performance, and scalability, we offer a comprehensive range of web development services. Whether you&apos;re looking to launch a brand new website, revamp an existing one, or develop a powerful web application, we have the expertise to bring your vision to life.</div>
+   </div>
               <div className="buttons">
                 <Button className="bg-indigo-950">See more</Button>
          
