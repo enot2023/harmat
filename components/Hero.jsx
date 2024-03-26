@@ -6,8 +6,27 @@ import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import CountUp from "react-countup";
 
 const Hero = () => {
+  const counters = [
+    {
+      num: 5,
+      title: "Years of expertise",
+    },
+    {
+      num: 5,
+      title: "Years of expertise",
+    },
+    {
+      num: 5,
+      title: "Years of expertise",
+    },
+    {
+      num: 5,
+      title: "Years of expertise",
+    },
+  ];
   const data =[
     {
         img: '/archi.jpg'
@@ -152,23 +171,19 @@ const settings = {
 
       </div>
 
-      <div className="flex items-center justify-between pt-10 pb-7">
-        <div className=" text-center ">
-          <h1 className="text-5xl font-extrabold text-indigo-950">5+</h1>
-          <p>Years of expertise</p>
-        </div>
-        <div className=" text-center ">
-          <h1 className="text-5xl font-extrabold text-indigo-950">5+</h1>
-          <p>Years of expertise</p>
-        </div>
-        <div className=" text-center ">
-          <h1 className="text-5xl font-extrabold text-indigo-950">5+</h1>
-          <p>Years of expertise</p>
-        </div>
-        <div className=" text-center ">
-          <h1 className="text-5xl font-extrabold text-indigo-950">5+</h1>
-          <p>Years of expertise</p>
-        </div>
+      <div className="flex items-center justify-between pt-10 pb-7 ml-6 md:ml-0">
+        {/* <div className=" text-center "> */}
+        {counters.map((counter) => (
+          <div className="flex flex-col md:items-center justify-center" key={counter.title}>
+            <CountUp
+              end={counter.num}
+              className="text-6xl font-bold text-indigo-950"
+              suffix="+"
+            />
+            <p>{counter.title}</p>
+          </div>
+        ))}
+        {/* </div> */}
       </div>
     </div>
   );
