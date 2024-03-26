@@ -177,7 +177,7 @@ const settings = {
           <div className="flex flex-col md:items-center justify-center" key={counter.title}>
             <CountUp
               end={counter.num}
-              className="text-6xl font-bold text-indigo-950"
+              className="text-5xl font-bold text-indigo-950"
               suffix="+"
             />
             <p>{counter.title}</p>
