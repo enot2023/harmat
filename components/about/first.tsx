@@ -4,6 +4,11 @@ import React from 'react'
 const First = () => {
   return (
     <div className='mx-auto max-w-screen-xl pl-10 pt-8'>
+       <h1 className=" text-[40px] lg:text-[50px] xl:text-[70px]  font-sans font-light">
+            WHAT MAKES US A SPECIAL AGENCY?
+          </h1>
+          <p className="text-[17px] pb-5 ">
+          we&apos;re not just another IT agency—we&apos;re the architects of innovation, the pioneers of progress, and your trusted partners in navigating the digital landscape.</p>
       <div className="grid grid-cols-1 md:grid-cols-2">
           <div className='order-2 md:order-1 pb-5'>
             <h1 className=" text-[40px] lg:text-[50px] xl:text-[70px]  font-sans font-light">

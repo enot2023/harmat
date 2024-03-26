@@ -587,6 +587,11 @@ body{
   list-style-type: disc; /* Use disc bullet points */
   margin-left: 1rem;
 }
+.ult1 {
+  
+  list-style-type: disc; /* Use disc bullet points */
+  
+}
 @media screen and (max-width: 768px) {
   
   .ult {
