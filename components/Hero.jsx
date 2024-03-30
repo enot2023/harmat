@@ -77,11 +77,11 @@ const settings = {
     <div className="mx-auto max-w-screen-xl px-4 pt-10 sm:px-6 lg:px-8 z-100">
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
       <div className="order-2 lg:order-1 lg:py-24 sm:p-2">
-          <h2 className="text-3xl lg:mb-0 ml-4 lg:ml-0 font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-950 to-sky-500">
+          <h2 className=" text-2xl md:text-3xl lg:mb-0 ml-4 lg:ml-0 font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-950 to-sky-500">
           Online Store
           </h2>
 
-          <p className="mt-4 lg:mb-0 ml-4 lg:ml-0 text-gray-600">
+          <p className="text-sm md:text-base mt-2 md:mt-4 lg:mb-0 ml-4 lg:ml-0 text-gray-600">
           Fashions, Electrical, Groceries, TV, Computer Hardware, Garden Tools, Kitchen Appliance, Toys and more.
           </p>
           
@@ -126,11 +126,11 @@ const settings = {
 
         
         <div className="lg:py-24">
-          <h2 className="text-3xl lg:mb-0 ml-4 lg:ml-0 font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-950 to-sky-500">
+          <h2 className="text-2xl md:text-3xl lg:mb-0 ml-4 lg:ml-0 font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-950 to-sky-500">
           We bring you powerful advantages to navigate your digital transformation.
           </h2>
 
-          <p className="mt-4 lg:mb-0 ml-4 lg:ml-0 text-gray-600">
+          <p className="text-sm md:text-base mt-2 md:mt-4 lg:mb-0 ml-4 lg:ml-0 text-gray-600">
           Web Design & Development, Networking, Smart Home Integration, Home Security, Medical and Industrial Equipments.
           </p>
           
@@ -143,11 +143,11 @@ const settings = {
 
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
       <div className="order-2 lg:order-1 lg:py-24">
-          <h2 className="text-3xl lg:mb-0 ml-4 lg:ml-0 font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-950 to-sky-500">
+          <h2 className="text-2xl md:text-3xl lg:mb-0 ml-4 lg:ml-0 font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-950 to-sky-500">
           Turn your dream home to reality.
           </h2>
 
-          <p className="mt-4 lg:mb-0 ml-4 lg:ml-0 text-gray-600">
+          <p className="text-sm md:text-base mt-2 md:mt-4 lg:mb-0 ml-4 lg:ml-0 text-gray-600">
           Architectural Design and Planning, Interior Design, Landscaping Design, Material Selection, Skilled Workforce Provision, and 3D Visualization.
           </p>
           
@@ -178,10 +178,10 @@ const settings = {
           <div className="flex flex-col md:items-center justify-center" key={counter.title}>
             <CountUp
               end={counter.num}
-              className="text-5xl font-bold text-indigo-950"
+              className=" text-3xl md:text-5xl font-bold text-indigo-950"
               suffix="+"
             />
-            <p>{counter.title}</p>
+            <p className=" text-base">{counter.title}</p>
           </div>
         ))}
         {/* </div> */}

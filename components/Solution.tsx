@@ -55,8 +55,8 @@ const Solution = () => {
   return (
     <div className='bg-indigo-950 pb-10'>
         <div className='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8'>
-        <h1 className='text-2xl text-white font-extrabold'>Expert Architectural Solutions</h1>
-        <h1 className='text-white pt-5'>Unlock Your Vision with Expert Architectural Solutions! Explore Our Wide Range of Services and Transform Your Dreams into Reality.</h1>
+        <h1 className=' text-2xl md:text-3xl text-white font-extrabold'>Expert Architectural Solutions</h1>
+        <h1 className=' text-sm md:text-base text-white pt-5'>Unlock Your Vision with Expert Architectural Solutions! Explore Our Wide Range of Services and Transform Your Dreams into Reality.</h1>
         </div>
         <div className='w-3/4 m-auto '>
         <Slider {...settings} >

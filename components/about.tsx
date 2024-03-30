@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className='mb-4'>
       {/* <hr className="mt-10 border-gray-200 " /> */}
-      <h2 className='flex items-center justify-center mt-6 text-3xl font-semibold'>About Us</h2>
+      <h2 className='text-xl md:text-3xl flex items-center justify-center mt-6 font-semibold'>About Us</h2>
       <div className='grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 '>
         <div className='flex items-center justify-center gap-10 lg:gap-24 -mt-10 lg:mt-8'>
           <p  className='order-2 lg:order-1 text-center pr-4 lg:px-4'>Contact us at : <a href="mailto:contact@harmatenterprise.com">contact@harmatenterprise.com</a></p>

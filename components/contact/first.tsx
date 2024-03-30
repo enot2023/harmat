@@ -18,11 +18,11 @@ const First = () => {
       <div className="absolute inset-0  lg:block">
       <div className="">
       <div className="mx-auto px-10 pt-[70px]  md:pt-36 ">
-        <div className="grid grid-cols-1 md:grid-cols-2">
-          <h1 className=" text-[40px] lg:text-[50px] xl:text-[70px] text-white font-sans font-light">
+        <div className="grid grid-cols-1 md:grid-cols-2 mt-3 md:mt-0">
+          <h1 className=" text-[30px] md:text-[40px] lg:text-[50px] xl:text-[70px] text-white font-sans font-light">
             What&apos;s on your mind?
           </h1>
-          <p className=" md:pl-10 lg:text-[17px] xl:text-xl lg:pt-6 xl:pt-8 text-white ">
+          <p className=" md:pl-10 text-[13px] md:text-[17px] xl:text-xl pt-2 md:pt-0 lg:pt-6 xl:pt-8 text-white ">
             We&apos;re here to help you! Tell us what you&apos;re looking for and
             we&apos;ll get you connected to the right people.
           </p>
@@ -74,7 +74,7 @@ const First = () => {
             as={Link}
             href="mailto:contact@harmatenterprise.com"
             target="__blank"
-            className=" rounded-xl  text-2xl font-normal text-white "
+            className=" rounded-xl text-base md:text-2xl font-normal text-white "
           >
             Request for a service →
           </CardItem>
