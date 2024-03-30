@@ -8,11 +8,11 @@ const Footer = () => {
 
     <div className="w-full pt-10 flex items-center justify-center bg-indigo-950">
             <div className="md:w-2/3 w-full px-4 text-white flex flex-col">
-                <div className="w-full text-7xl font-bold">
-                    <h1 className="w-full md:w-2/3">About Us</h1>
+                <div className="w-full text-5xl md:text-7xl font-bold">
+                    <h1 className=" w-full md:w-2/3">About Us</h1>
                 </div>
-                <div className="flex mt-8 flex-col md:flex-row ">
-                    <p className="w-full md:w-2/3 text-gray-400">Nestled in Imphal, HARMAT ENTERPRISE PRIVATE LIMITED is a hub of architectural innovation, smart planning, and advanced IT networking. Our passion for creativity and technology fuels our progress. With a team from across India, we&apos;re not just changing spaces; we&apos;re making possibilities limitless. Welcome to a new era of excellence!</p>
+                <div className="flex mt-4 md:mt-8 flex-col md:flex-row ">
+                    <p className=" text-sm md:text-base w-full md:w-2/3 text-gray-400">Nestled in Imphal, HARMAT ENTERPRISE PRIVATE LIMITED is a hub of architectural innovation, smart planning, and advanced IT networking. Our passion for creativity and technology fuels our progress. With a team from across India, we&apos;re not just changing spaces; we&apos;re making possibilities limitless. Welcome to a new era of excellence!</p>
                     <div className=" pt-6 md:pt-0 md:pl-10  ">
                         <a href="mailto:contact@harmatenterprise.com" className="bg-red-500 w-44 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
                         <div className="flex items-center justify-start mt-5 ">

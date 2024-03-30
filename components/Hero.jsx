@@ -126,7 +126,7 @@ const settings = {
 
         
         <div className="lg:py-24">
-          <h2 className="text-2xl md:text-3xl lg:mb-0 ml-4 lg:ml-0 font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-950 to-sky-500">
+          <h2 className="text-[20px] md:text-3xl lg:mb-0 ml-4 lg:ml-0 font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-950 to-sky-500">
           We bring you powerful advantages to navigate your digital transformation.
           </h2>
 
