@@ -28,7 +28,7 @@ const SkeletonOne = () => {
       <p className="font-normal text-sm my-4 max-w-lg text-neutral-200">
       We are here to provide the best planning and design as per your needs. Starting from section, elevation till REALISTIC 3D views. 
       </p>
-      <a href="mailto:contact@harmatenterprise.com" className=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
+      <a href="mailto:soramjoys@gmail.com" className=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
     </div>
   );
 };
@@ -41,7 +41,7 @@ const SkeletonTwo = () => {
       <p className="font-normal text-sm my-4 max-w-lg text-neutral-200">
       Interior Design play a very important role in building office / home. We make sure it not miss and provide starting from designing, Electrical to material selection.
       </p>
-      <a href="mailto:contact@harmatenterprise.com" class=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
+      <a href="mailto:soramjoys@gmail.com" class=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
     </div>
   );
 };
@@ -53,7 +53,7 @@ const SkeletonThree = () => {
       <p className="font-normal text-sm my-4 max-w-lg text-neutral-200">
       A good Landscape will make the eyes treat to see. For accomplishing a good landscaping design, We are here to provide the best service.
       </p>
-      <a href="mailto:contact@harmatenterprise.com" class=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
+      <a href="mailto:soramjoys@gmail.com" class=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
     </div>
   );
 };
@@ -65,7 +65,7 @@ const SkeletonFour = () => {
       <p className="font-normal text-sm my-4 max-w-lg text-neutral-200">
       We provide service and equipment for home security. Contact us for more information.
       </p>
-      <a href="mailto:contact@harmatenterprise.com" class=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
+      <a href="mailto:soramjoys@gmail.com" class=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
     </div>
   );
 };
@@ -77,7 +77,7 @@ const Skeletonfive = () => {
       <p className="font-normal text-sm my-4 max-w-lg text-neutral-200">
       High electric bill? We are providing a solution to cut down on electric bill and control the lighting remotely. For more information contact us. 
       </p>
-      <a href="mailto:contact@harmatenterprise.com" class=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
+      <a href="mailto:soramjoys@gmail.com" class=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
     </div>
   );
 };
@@ -89,7 +89,7 @@ const Skeletonsix = () => {
       <p className="font-normal text-sm my-4 max-w-lg text-neutral-200">
       We provide a technique of collection and storage of rainwater. For more information contact us.
       </p>
-      <a href="mailto:contact@harmatenterprise.com" class=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
+      <a href="mailto:soramjoys@gmail.com" class=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
     </div>
   );
 };

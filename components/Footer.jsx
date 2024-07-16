@@ -12,19 +12,19 @@ const Footer = () => {
                     <h1 className=" w-full md:w-2/3">About Us</h1>
                 </div>
                 <div className="flex mt-4 md:mt-8 flex-col md:flex-row ">
-                    <p className=" text-sm md:text-base w-full md:w-2/3 text-gray-400">Nestled in Imphal, HARMAT ENTERPRISE PRIVATE LIMITED is a hub of architectural innovation, smart planning, and advanced IT networking. Our passion for creativity and technology fuels our progress. With a team from across India, we&apos;re not just changing spaces; we&apos;re making possibilities limitless. Welcome to a new era of excellence!</p>
+                    <p className=" text-sm md:text-base w-full md:w-2/3 text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime officiis facilis aut reprehenderit praesentium qui quo saepe beatae commodi repellat, distinctio molestias, debitis eaque voluptas quas iste nulla explicabo nihil.</p>
                     <div className=" pt-6 md:pt-0 md:pl-10  ">
-                        <a href="mailto:contact@harmatenterprise.com" className="bg-red-500 w-44 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
+                        <a href="mailto:soramjoys@gmail.com" className="bg-red-500 w-44 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
                         <div className="flex items-center justify-start mt-5 ">
                         <Phone className=" mr-4"/>
-                        <a href="tel:+918132043928" className="hover:scale-110 transition-all ease-in-out md:text-left">Call us: +91 8132043928</a>
+                        <a href="tel:+919863303851" className="hover:scale-110 transition-all ease-in-out md:text-left">Call us: +91 9863303851</a>
                         </div>
                     </div>
                 </div>
                 <div className="flex flex-col">
                     <div className="flex mt-10 mb-5 flex-row justify-between">
                         <div >
-                        <Image src={"/logo.png"} width={84} height={25} alt="logo"/>  
+                        <Image src={"/jk_logo.png"} width={84} height={25} alt="logo"/>  
                         </div>
                         <div className=" flex items-center justify-center md:gap-10  lg:gap-20">
                         <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">About</a>
@@ -48,7 +48,7 @@ const Footer = () => {
                         </div>
                     </div>
                    <hr className="border-gray-600"/>
-                    <p className="w-full text-center my-7 text-gray-600"> © Copyright 2023. All rights reserved. HARMAT ENTERPRISES</p>
+                    <p className="w-full text-center my-7 text-gray-600"> © Copyright 2023. All rights reserved. Joykumar</p>
                 </div>
             </div>
         </div>

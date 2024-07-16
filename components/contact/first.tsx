@@ -32,7 +32,7 @@ const First = () => {
             <div className="order-2 md:order-1">
               <div className="  rounded-lg h-[180px] md:h-[350px] xl:h-[400px]">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.366851243146!2d93.92830457482411!3d24.782888748358136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3749273de4298ee1%3A0xe2b8f0e65a80bc44!2sHarmat%20Enterprise%20Private%20Limited!5e0!3m2!1sen!2sin!4v1711337266832!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.497108408435!2d93.92596577482502!3d24.812668047169304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374927b6677229d1%3A0xd03c882f24fc199f!2sRIMS%20Rd%2C%20Imphal%2C%20Manipur!5e0!3m2!1sen!2sin!4v1721125854598!5m2!1sen!2sin" 
                   width="100%"
                   height="100%"
                   className="rounded-lg"
@@ -44,21 +44,21 @@ const First = () => {
                 <ul>
                   <li className=" pb-3">
                     <MapPin className="icon-box" style={{ fill: 'white'}} />
-                    <span className="pl-6 text-white text-sm md:text-base">Address: Pishumthong, Nongthombam Leirak</span>
+                    <span className="pl-6 text-white text-sm md:text-base">Address: Nagamapal, RIMS Road</span>
                   </li>
                   <li className="pb-3  hover:scale-110 transition-all ease-in-out">
                     <Phone className="icon-box" style={{ fill: 'white'}}/>
-                    <a href="tel:+918132043928" className="pl-6 text-white text-sm md:text-base">
-                      Call us: +91 8132043928
+                    <a href="tel:+919863303851" className="pl-6 text-white text-sm md:text-base">
+                      Call us: +91 9863303851
                     </a>
                   </li>
                   <li className="pb-3 hover:scale-110 transition-all ease-out-in">
                     <Mail className="icon-box" style={{ fill: 'white'}}/>
                     <a
-                      href="mailto:contact@harmatenterprise.com"
+                      href="mailto:soramjoys@gmail.com.com"
                       className="pl-6 text-white text-xs md:text-sm lg:text-base"
                     >
-                      Mail us: contact@harmatenterprise.com
+                      Mail us: soramjoys@gmail.com.com
                     </a>
                   </li>
                 </ul>
@@ -72,7 +72,7 @@ const First = () => {
           <CardItem
             translateZ={20}
             as={Link}
-            href="mailto:contact@harmatenterprise.com"
+            href="mailto:soramjoys@gmail.com"
             target="__blank"
             className=" rounded-xl text-base md:text-2xl font-normal text-white "
           >

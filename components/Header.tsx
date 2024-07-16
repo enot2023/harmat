@@ -60,7 +60,7 @@ const Header = () => {
 
         <div className='flex items-center  gap-10 '>    
         <Link href={"/"}>
-        <Image alt='logo' src="/logo.png" width={60} height={60} /></Link>
+        <Image alt='logo' src="/jk_logo.png" width={80} height={80} /></Link>
         </div>
         <ul className='md:flex md:text-sm md:gap-2 lg:gap-8 hidden text-white'>
         {Menu.map((item) => (

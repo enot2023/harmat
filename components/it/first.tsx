@@ -14,7 +14,7 @@ export function First() {
           Elevate your online presence with our expert web development solutions, crafted to seamlessly merge innovation with functionality. From captivating design to robust functionality, we bring your digital vision to life with precision and flair.
         </p>
       <div className="flex items-center justify-center pt-5">
-      <a href="mailto:contact@harmatenterprise.com" className=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
+      <a href="mailto:soramjoys@gmail.com" className=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
             </div>
       </div>
     </div></BackgroundGradient>
@@ -25,7 +25,7 @@ export function First() {
         <p className={"descriptionz text-white"}>
         Secure your digital infrastructure with our cutting-edge network security solutions. From threat detection to data encryption, we safeguard your organization against cyber threats with expertise and precision.</p>
       <div className="flex items-center justify-center pt-8  ">
-      <a href="mailto:contact@harmatenterprise.com" className=" eigini  w-44 justify-center text-center rounded-lg shadow px-2 py-4 mb-[5px] flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
+      <a href="mailto:soramjoys@gmail.com" className=" eigini  w-44 justify-center text-center rounded-lg shadow px-2 py-4 mb-[5px] flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
             </div>
       </div>
     </div></BackgroundGradient>
@@ -36,7 +36,7 @@ export function First() {
         <p className={"descriptionz text-white"}>
         Elevate your asset management strategies with our tailored solutions. From tracking and optimizing resources to mitigating risks, we empower your organization to efficiently manage and maximize the value of its assets.</p>
       <div className="flex items-center justify-center pt-5 ">
-      <a href="mailto:contact@harmatenterprise.com" className=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
+      <a href="mailto:soramjoys@gmail.com" className=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
             </div>
       </div>
     </div></BackgroundGradient>
@@ -47,7 +47,7 @@ export function First() {
         <p className={"descriptionz text-white"}>
         Optimize educational processes with our School Management System. From enrollment to performance tracking, our solution empowers educators to efficiently manage every aspect of the learning journey, fostering student success.</p>
       <div className="flex items-center justify-center pt-4">
-      <a href="mailto:contact@harmatenterprise.com" className=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
+      <a href="mailto:soramjoys@gmail.com" className=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
             </div>
       </div>
     </div></BackgroundGradient>
@@ -58,7 +58,7 @@ export function First() {
         <p className={"descriptionz text-white"}>
         Ensure safety with our advanced Fire Alarm systems. From early detection to swift response, we provide reliable solutions to protect lives and property, offering peace of mind in any environment.</p>
       <div className="flex items-center justify-center pt-8">
-      <a href="mailto:contact@harmatenterprise.com" className=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
+      <a href="mailto:soramjoys@gmail.com" className=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4 flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
             </div>
       </div>
     </div></BackgroundGradient>
@@ -69,7 +69,7 @@ export function First() {
         <p className={"descriptionz text-white"}>
         Enhance security with our CCTV Camera solutions. Offering round-the-clock surveillance, our systems provide peace of mind by monitoring and safeguarding your premises against potential threats.</p>
       <div className="flex items-center justify-center pt-8">
-      <a href="mailto:contact@harmatenterprise.com" className=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4  flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
+      <a href="mailto:soramjoys@gmail.com" className=" eigini w-44 justify-center text-center rounded-lg shadow px-2 py-4  flex items-center hover:scale-110 transition-all ease-in-out">Contact US</a>
             </div>
       </div>
     </div></BackgroundGradient>
