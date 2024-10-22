@@ -57,7 +57,7 @@ const MobileSiderbar = () => {
         <div className='grid grid-cols-2  gap-10 '>   
         <SheetClose asChild>
         <Link href={"/"}>
-        <Image alt='logo' src="/logo.png" width={60} height={60} className='ml-5 mt-3' /></Link>
+        <Image alt='logo' src="/jk_logo.png" width={60} height={60} className='ml-5 mt-3' /></Link>
         </SheetClose>
         <div className='flex items-center justify-center'>
          <a
